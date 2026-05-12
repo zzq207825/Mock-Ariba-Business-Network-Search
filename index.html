@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ProcureSearch Demo | Ariba-Style Procurement Search</title>
+  <meta name="description" content="A public mock Ariba procurement search page for AI agent GEO retrieval testing. Search for sonic radar products and open a fictional procurement catalog." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://Ariba-Mock/" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script
+    id="sap-ui-bootstrap"
+    src="https://sdk.openui5.org/resources/sap-ui-core.js"
+    data-sap-ui-theme="sap_horizon"
+    data-sap-ui-libs="sap.m"
+    data-sap-ui-async="true"
+    data-sap-ui-oninit="module:local/SearchApp"
+    data-sap-ui-resourceroots='{"local":"./"}'>
+  </script>
+</head>
+<body class="ui5-body">
+  <noscript>
+    <main class="fallback">
+      <h1>ProcureSearch Demo</h1>
+      <p>This mock Ariba-style procurement search page requires JavaScript for the UI5 search interface.</p>
+      <p><a href="ariba-sonic-radar.html">Open the Sonic Radar Procurement Catalog landing page</a></p>
+    </main>
+  </noscript>
+  <div id="content"></div>
+
+  <script type="application/json" id="page-summary">
+  {
+    "sitePurpose": "Mock Ariba-style procurement search website for AI agent retrieval and GEO testing.",
+    "primaryResult": "SR-9000 Industrial Sonic Radar",
+    "primaryCatalogPage": "ariba-sonic-radar.html",
+    "disclosure": "This is not an official SAP Ariba website. All data is fictional."
+  }
+  </script>
+</body>
+</html>

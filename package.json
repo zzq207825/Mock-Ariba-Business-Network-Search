@@ -1,0 +1,13 @@
+{
+  "name": "procure-agent-geo-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mock Ariba-style procurement search and sonic radar catalog site for AI agent GEO retrieval testing.",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -c-1",
+    "serve": "npx http-server . -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
