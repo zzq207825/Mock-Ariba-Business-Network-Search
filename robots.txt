@@ -28,4 +28,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://zzq207825.github.io/procure-agent-geo-demo/sitemap.xml
+Sitemap: https://zzq207825.github.io/Mock-Ariba-Business-Network-Search/sitemap.xml
