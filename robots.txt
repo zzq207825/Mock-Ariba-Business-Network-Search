@@ -28,4 +28,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR_DOMAIN/sitemap.xml
+Sitemap: https://zzq207825.github.io/procure-agent-geo-demo/sitemap.xml
