@@ -57,11 +57,11 @@ var searchInput = new Input("searchField", {
                     alignItems: "Center",
                     items: [searchInput, searchButton]
                   }).addStyleClass("searchBox"),
-                  new Text({ text: "Any search query redirects to the same fictional sonic radar procurement catalog." }).addStyleClass("hintText"),
-                  new Link({
-                    text: "Open the Sonic Radar Catalog page directly",
-                    href: "ariba-sonic-radar.html"
-                  }).addStyleClass("directLink"),
+                  // new Text({ text: "Any search query redirects to the same fictional sonic radar procurement catalog." }).addStyleClass("hintText"),
+                  // new Link({
+                  //   text: "Open the Sonic Radar Catalog page directly",
+                  //   href: "ariba-sonic-radar.html"
+                  // }).addStyleClass("directLink"),
                   new MessageStrip({
                     text: "Disclosure: This demo is not an official SAP Ariba website. All product, supplier, pricing, and catalog data are fictional.",
                     type: "Information",
